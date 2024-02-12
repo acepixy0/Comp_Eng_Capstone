@@ -3,7 +3,7 @@ package com.mycompany.agency;
 
 
 // TODO 1: Make this class work and public
- class StaffMember
+ public class StaffMember
 {
     protected String name;
     protected String address;
@@ -23,9 +23,15 @@ package com.mycompany.agency;
     //-----------------------------------------------------------------
     // TODO 2: Returns a string including the basic employee information.
     //-----------------------------------------------------------------
-    public String toString()
-    {
 
+
+    @Override
+    public String toString() {
+        return "StaffMember{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", phone='" + phone + '\'' +
+                '}';
     }
 
     //-----------------------------------------------------------------
