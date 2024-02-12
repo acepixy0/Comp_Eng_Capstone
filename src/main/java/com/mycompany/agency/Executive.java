@@ -14,6 +14,7 @@ public class Executive
             String socSecNumber, double rate)
     {
         super(eName, eAddress, ePhone, socSecNumber, rate);
+        System.out.println("hello");
 
         bonus = 0;  // bonus has yet to be awarded
     }
